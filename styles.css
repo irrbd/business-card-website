@@ -1,0 +1,659 @@
+@import url('font-awesome.min.css');
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+
+.page
+{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+	color: #999999;
+	font-size: 1rem;
+	line-height: 2rem;
+}
+
+
+.header
+{
+	width: 25%;
+	height: 60rem;
+	background-color: #fff;
+	background-attachment: fixed, scroll;
+	background-image: url("images/overlay.png"), url("images/bg.jpg");
+	background-position: top left, top left;
+	background-repeat: no-repeat, no-repeat;
+	background-size: auto, auto 100%;
+	left: 0;
+	padding: 5rem 4rem;
+	position: fixed;
+	text-align: right;
+	top: 0;
+}
+    
+	
+.avatar
+{
+	width: 9.25rem;
+}	
+	
+	
+.avatar_round
+{
+	border-radius: 50%;
+}
+
+
+.business-card
+{
+    font-size: 0.7rem;
+	color: #f1684e;
+}
+
+
+.icons-group
+{
+	position: relative;
+	display: block;
+	font-size: 0.9rem;
+	font-weight: 400;
+	margin: 0 0 1rem 0;
+	top: 3rem;
+	letter-spacing: 0.1rem;
+	
+}
+
+
+.icon
+{
+	color: #787878;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	text-decoration: none;
+	border-bottom: none;
+	font-size: 1.5rem;
+}
+
+
+.icon_mobile
+{
+	font-size: 2rem;
+}
+
+
+.icon_whithout-title
+{
+	display: none;
+}
+
+
+.icon:hover
+{
+	color: #f1684e;
+}
+
+						
+.menu
+{
+     
+}
+
+
+.link_menu
+{
+    
+}
+
+
+.link_menu_active
+{
+    
+}
+
+
+.main
+{
+    position: relative;
+	margin-left: 30.5%;
+	max-width: 56rem;
+	padding: 4rem 4rem 4rem 4rem;
+	width: calc(100% - 30.5%);
+	overflow-x: hidden;
+}
+
+
+.main__line
+{
+	border: 0;
+	border-bottom: solid 1px #cccccc;
+	margin: 2rem 0;
+}
+
+
+.button
+{	
+	border-radius: 0.35rem;
+	border: solid 3px #cccccc;
+	color: #666666;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 400;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	min-width: 7rem;
+	max-width: 7rem;
+	padding: 0 1.5rem;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;	
+	font-family: FontAwesome;	
+	font-size: 1rem;
+}
+
+
+.button:hover 
+{
+	border-color: #f1684e;
+	color: #f1684e;
+}		
+
+
+.text-area 
+{
+	color: #666666;
+}		
+
+
+.text-area_justify
+
+{
+	text-align: justify;
+}
+
+
+.text-area__title
+{
+	
+}
+
+
+.text-area__title_text-align_left
+
+{
+	text-align: left;
+}
+
+
+.send-form
+{
+	display: inline-block;
+	width: 43rem;
+}
+
+
+.send-form__text-input
+{
+	border-bottom: solid 1px transparent;
+	box-sizing: border-box;
+	appearance: none;
+	background: #f7f7f7;
+	border-radius: 0.35rem;
+	border: solid 2px transparent;
+	color: inherit;
+	outline: 0;
+	padding: 0 0.75rem;
+	text-decoration: none;
+	height: 2.75rem;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	width: 20rem;
+}
+
+
+.send-form__button
+{	
+	display: inline-block;
+	font-size: 1rem;
+	margin-top: 0.3rem;
+	
+}
+
+
+.send-form__button:hover 
+{
+	border-color: #f1684e;
+	color: #f1684e;
+}		
+
+
+.send-form__text-area
+{
+	display: inline-block;
+	border-bottom: solid 1px transparent;
+	box-sizing: border-box;
+	appearance: none;
+	background: #f7f7f7;
+	border-radius: 0.35rem;
+	border: solid 2px transparent;
+	color: inherit;
+	outline: 0;
+	padding: 0 0.75rem;
+	text-decoration: none;
+	height: 2.75rem;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	margin-top: 1rem;
+	width: 41.2rem;
+	height: 7rem;
+	
+}
+
+
+.send-form__text-input:focus
+{
+	border-color: #f1684e;
+}
+
+
+.send-form__text-area:focus
+{
+	border-color: #f1684e;
+}
+
+.send-form__text-input_inline
+{
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+
+.inform-block
+{
+	display: inline-block;
+	width: 10rem;
+	vertical-align: top;
+	padding: 0rem 0rem 0rem 0rem;
+}
+
+
+.inform-block__icon
+{
+	display: inline-block;
+	padding: 0rem 0.5rem 0rem 0rem;
+}
+
+
+.inform-block__element
+{
+	padding: 0rem 0rem 0rem 0rem;
+}
+
+.footer
+{
+	position: relative;
+	margin-left: 30.5%;
+	max-width: 55rem;
+	padding: 4rem 4rem 4rem 4rem;
+	width: calc(100% - 30.5%);
+	color: #666666;
+}
+
+
+.footer__text
+{
+	font-size: 0.8rem;
+}
+
+
+@media screen and (max-width: 1665px)
+{
+	.avatar
+	{
+		width: 8rem;
+	}	
+	
+	
+	.business-card
+	{
+		font-size: 0.65rrem;
+	}
+	
+	.main
+	{
+		margin-left: 32%;
+	}
+
+}
+
+
+@media screen and (min-width: 1349px) and (max-width: 1507px)
+{
+	
+	.header
+	{
+		background-image: url("images/overlay.png"), url("images/bg1280.jpg");
+		width: 25%;
+		height: 63rem;
+		padding: 5rem 1rem 1rem 1rem;
+		background-color: #fff;
+		background-attachment: fixed, scroll;
+	}
+	
+	.avatar
+	{
+		width: 8rem;
+	}	
+	
+	
+	.business-card
+	{
+		font-size: 0.55rem;
+	}
+
+	
+	.icons-group
+	{
+		position: relative;
+		display: block;
+		font-size: 0.8rem;
+		font-weight: 400;
+		margin: 0 0 1rem 0;
+		top: 4rem;
+		letter-spacing: 0.1rem;
+					
+	}
+		
+	.main 
+	{
+		position:relative;
+		margin-left: 27%;
+		max-width: 49rem;
+		padding:3rem 3rem 2rem 2rem;
+		width: calc(100% - 27%);
+	}
+	
+	 .inform-block__element
+	{
+		display: inline-block;
+		width: 10rem;
+	}
+	
+	 .inform-block
+	{
+		margin-top: 2rem;
+		width: 21rem;
+	}
+	
+	.footer
+	{
+		position:relative;
+		margin-left: 27%;
+		padding: 4rem 4rem 4rem 2rem;
+		width: calc(100% - 27%);
+	}
+
+}
+
+@media screen and (max-width: 1349px)
+{
+
+	.header 
+	{
+		background-image: none;
+		background-attachment: scroll;
+		background-position: center center, center center;
+		background-size: auto, auto 100%;
+		left: auto;
+		padding: 4rem 3rem;
+		position: relative;
+		text-align: left;
+		top: auto;
+		width: 100%;
+		height: 10%;
+		display: block;
+	}
+
+	
+	.avatar
+	{
+		position: relative;
+		width: 8rem;
+	}	
+		
+
+	.business-card
+	{
+		position: relative;
+		font-size: 0.7rem;
+		color: #f1684e;
+	}
+
+	
+	.icons-group
+	{
+		position: relative;
+		font-size: 1.2rem;
+		margin: 0 0 1rem 0;
+		top: 2rem;
+		letter-spacing: 0.1rem;
+	}
+	
+	
+	.main 
+	{
+		margin: 0;
+		padding: 5rem 3rem;
+		max-width: 52rem;
+		min-width: 320px;
+	}
+	
+	.send-form__text-input
+	{
+		width: 16.5rem;
+	}
+	
+	.send-form__text-area
+	{
+		width: 34.2rem;	
+	}
+	
+	 .inform-block__element
+	{
+		display: inline-block;
+		width: 10rem;
+	}
+	
+	 .inform-block
+	{
+		margin-top: 2rem;
+		width: 21rem;
+	}
+	
+	.footer
+	{
+		margin-left: 0%;
+	}
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 837px)
+{
+	.header
+	{
+		background-image: none;
+		background-attachment: scroll;
+		background-position: center center, center center;
+		background-size: auto, auto 100%;
+		left: auto;
+		padding: 2rem 3rem 0 3rem;
+		position: relative;
+		text-align: left;
+		top: auto;
+		width: 100%;
+		height: 10%;
+		display: block;
+		overflow-y: hidden;
+	}
+
+	
+	.avatar
+	{
+		display:none;
+	}	
+		
+
+	.business-card
+	{
+		position: relative;
+		font-size: 0.6rem;
+		color: #f1684e;
+	}
+
+	
+	.icons-group
+	{
+		position: relative;
+		display: block;
+		font-size: 1.2rem;
+		font-weight: 400;
+		margin: 0 0 1rem 0;
+		top: 1rem;
+		letter-spacing: 0.1rem;
+	}
+	
+	
+	.main 
+	{
+		margin: 0;
+		padding: 0rem 3rem;
+		max-width: 52rem;
+		min-width: 320px;
+	}
+	
+	.send-form
+	{
+		width: 30rem;
+	}
+	
+	.send-form__text-input
+	{
+		width: 30rem;
+		margin-top: 1rem;
+	}
+	
+	.send-form__text-area
+	{
+		width: 30rem;	
+	}
+	
+	 .inform-block__element
+	{
+		display: inline-block;
+		width: 10rem;
+	}
+	
+	 .inform-block
+	{
+		margin-top: 2rem;
+		width: 21rem;
+	}
+	
+	.footer
+	{
+		padding: 4rem 4rem 4rem 3rem;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+
+@media screen and (max-width: 420px)
+{
+	.header
+	{
+		background-image: none;
+		background-attachment: scroll;
+		background-position: center center, center center;
+		background-size: auto, auto 100%;
+		left: auto;
+		padding: 2rem 3rem 0 3rem;
+		position: relative;
+		text-align: left;
+		top: auto;
+		width: 100%;
+		height: 10%;
+		overflow-y: hidden;
+	}
+
+	
+	.avatar
+	{
+		display:none;
+	}	
+		
+
+	.business-card
+	{
+		position: relative;
+		font-size: 0.6rem;
+		color: #f1684e;
+	}
+
+	
+	.icons-group
+	{
+		position: relative;
+		display: block;
+		font-size: 1.2rem;
+		font-weight: 400;
+		margin: 0 0 1rem 0;
+		top: 1rem;
+		letter-spacing: 0.1rem;
+	}
+	
+	
+	.main 
+	{
+		margin: 0;
+		padding: 0rem 3rem;
+		max-width: 52rem;
+		min-width: 320px;
+	}
+	
+	.send-form
+	{
+		width: 20rem;
+	}
+	
+	.send-form__text-input
+	{
+		width: 20rem;
+		margin-top: 0.8rem;
+	}
+	
+	.send-form__text-area
+	{
+		width: 20rem;	
+	}
+	
+	 .inform-block__element
+	{
+		display: inline-block;
+		width: 10rem;
+	}
+	
+	 .inform-block
+	{
+		margin-top: 2rem;
+		width: 21rem;
+	}
+	
+	.footer
+	{
+		padding: 4rem 4rem 4rem 3rem;
+		margin-left: 0;
+		margin-right: 0;;
+	}
+}
